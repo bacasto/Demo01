@@ -1,0 +1,47 @@
+#Profesor
+	->Recibir actas en blanco
+		->Dato asignatura(titulacion, campus, curso...)
+		->Lista de alumnos matriculados(niu, nif, nombre+apaellidos)
+	->Completar acta con notas
+	->Añadir/Borrar un alumno de acta
+	->Integrar actas de varios grupos de misma asignatura en una sola
+	->Consultar informacion de alumno(DNI, Nº Expediente, Lista de asignaturas alumno matriculado)
+	->Obtener estadistica calificaciones alumno por grupo y asignatura
+		->Nº personas con xcalificacion
+		->Porcentaje sobre los presentados
+		->Porcentaje sobre total del grupo
+	->Consultar porcentaje de presentados y no presentados
+	->Disponer de calculadora
+		->Suma
+		->Resta
+		->Multiplicacion
+		->Division
+	->Importar y exportar calificaciones a excel.
+	->Imprimir actas y lista provisional calificaciones.
+
+#Admin
+	->Gestión ABMC (Altas/Bajas/Modificaciones y Consultas) de los datos de un alumno y se matriculación en una asignatura y a un grupo. 
+	->Gestión de asignaturas
+		->Curso---------------------------------
+			->Nº maximo Alumnos
+			->Nº minimo Credito troncales
+			->Nº minimo creditos optativos
+			----------------------------------
+				->Nombre
+				->Nº creditos
+				->Cuatrimestre
+	->Gestion de titulaciones
+		->Campus
+			->Nombre
+			->Nº creditos
+			->Carga colectiva total
+	->Gestion de grupos
+		->Nº maximo de alumnos permitidos
+		->Tipo de grupo
+			->Mañana
+			->Tarde
+			->Noche
+		->Codigo empleado
+	->Consultar alumnos que no se pueden matricular
+		->Motivo
+	->Consultar historial academico

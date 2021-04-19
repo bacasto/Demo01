@@ -1,0 +1,7 @@
+ACTORES
+---------------
+Empresa->
+
+Inquilino
+
+Secretario
